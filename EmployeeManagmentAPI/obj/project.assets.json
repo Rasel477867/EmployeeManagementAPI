@@ -1564,6 +1564,50 @@
             "rid": "win"
           }
         }
+      },
+      "EmployeeAPI.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeAPI.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeAPI.Entity.dll": {}
+        }
+      },
+      "EmployeeAPI.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EmployeeAPI.Entity": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeAPI.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeAPI.Repository.dll": {}
+        }
+      },
+      "EmployeeAPI.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EmployeeAPI.Repository": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeAPI.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeAPI.Service.dll": {}
+        }
       }
     }
   },
@@ -4422,10 +4466,26 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "EmployeeAPI.Entity/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeAPI.Entity/EmployeeAPI.Entity.csproj",
+      "msbuildProject": "../EmployeeAPI.Entity/EmployeeAPI.Entity.csproj"
+    },
+    "EmployeeAPI.Repository/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeAPI.Repository/EmployeeAPI.Repository.csproj",
+      "msbuildProject": "../EmployeeAPI.Repository/EmployeeAPI.Repository.csproj"
+    },
+    "EmployeeAPI.Service/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeAPI.Service/EmployeeAPI.Service.csproj",
+      "msbuildProject": "../EmployeeAPI.Service/EmployeeAPI.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "EmployeeAPI.Service >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.1",
@@ -4458,7 +4518,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\API Project\\EmployeeManagmentSystem API\\EmployeeManagment\\EmployeeAPI.Service\\EmployeeAPI.Service.csproj": {
+              "projectPath": "D:\\API Project\\EmployeeManagmentSystem API\\EmployeeManagment\\EmployeeAPI.Service\\EmployeeAPI.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

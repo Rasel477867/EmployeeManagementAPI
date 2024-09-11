@@ -15,6 +15,6 @@ namespace EmployeeAPI.Entity.EntityModels
         public string PostalCode { get; set; }
         public virtual List<Attedence> Attendences { get; set; }
 
-        public Attedence Attedence { get; set; }
+      
     }
 }

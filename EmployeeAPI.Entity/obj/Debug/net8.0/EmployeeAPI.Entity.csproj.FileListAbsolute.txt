@@ -1,0 +1,15 @@
+D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeAPI.Entity\bin\Debug\net8.0\EmployeeAPI.Entity.deps.json
+D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeAPI.Entity\bin\Debug\net8.0\EmployeeAPI.Entity.runtimeconfig.json
+D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeAPI.Entity\bin\Debug\net8.0\EmployeeAPI.Entity.dll
+D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeAPI.Entity\bin\Debug\net8.0\EmployeeAPI.Entity.pdb
+D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeAPI.Entity\obj\Debug\net8.0\EmployeeAPI.Entity.csproj.AssemblyReference.cache
+D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeAPI.Entity\obj\Debug\net8.0\EmployeeAPI.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeAPI.Entity\obj\Debug\net8.0\EmployeeAPI.Entity.AssemblyInfoInputs.cache
+D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeAPI.Entity\obj\Debug\net8.0\EmployeeAPI.Entity.AssemblyInfo.cs
+D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeAPI.Entity\obj\Debug\net8.0\EmployeeAPI.Entity.csproj.CoreCompileInputs.cache
+D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeAPI.Entity\obj\Debug\net8.0\EmployeeAPI.Entity.sourcelink.json
+D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeAPI.Entity\obj\Debug\net8.0\EmployeeAPI.Entity.dll
+D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeAPI.Entity\obj\Debug\net8.0\refint\EmployeeAPI.Entity.dll
+D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeAPI.Entity\obj\Debug\net8.0\EmployeeAPI.Entity.pdb
+D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeAPI.Entity\obj\Debug\net8.0\EmployeeAPI.Entity.genruntimeconfig.cache
+D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeAPI.Entity\obj\Debug\net8.0\ref\EmployeeAPI.Entity.dll
