@@ -13,7 +13,8 @@ namespace EmployeeAPI.Repository.Core
         Task Update(T Entity);
         Task Delete(T Entity);
         Task Add(T Entity);
-
+        Task DeleteRangeFromDBAsync(IEnumerable<T> entities);
+        Task AddRangeAsync(IEnumerable<T> entities);
 
     }
 }

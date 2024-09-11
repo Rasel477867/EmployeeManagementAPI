@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmployeeAPI.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+387e6d500548223b7f04c148872c72183e1014a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+482172aad9a246b1103978da684a3cfa261a57e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmployeeAPI.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmployeeAPI.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

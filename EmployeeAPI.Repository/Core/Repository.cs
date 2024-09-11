@@ -26,7 +26,12 @@ namespace EmployeeAPI.Repository.Core
         {
 
             await table.AddAsync(Entity);
-            await _db.SaveChangesAsync();
+           
+        }
+
+        public async Task AddRangeAsync(IEnumerable<T> entities)
+        {
+            await table.AddRangeAsync(entities);
         }
 
         public virtual async Task Delete(T Entity)
@@ -37,8 +42,16 @@ namespace EmployeeAPI.Repository.Core
                 table.Update(Entity);
                 _db.SaveChanges();
             });
-            await _db.SaveChangesAsync();
+            
 
+        }
+
+        public async Task DeleteRangeFromDBAsync(IEnumerable<T> entities)
+        {
+            await Task.Run(() =>
+            {
+                table.RemoveRange(entities);
+            });
         }
 
         public virtual async Task<List<T>> GetAll()
@@ -59,7 +72,7 @@ namespace EmployeeAPI.Repository.Core
                 table.Update(Entity);
 
             });
-            await _db.SaveChangesAsync();
+          
         }
     }
 }
