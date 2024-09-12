@@ -141,3 +141,4 @@ D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeManagmentAP
 D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeManagmentAPI\bin\Debug\net8.0\EmployeeAPI.Entity.pdb
 D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeManagmentAPI\bin\Debug\net8.0\EmployeeAPI.Repository.pdb
 D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeManagmentAPI\obj\Debug\net8.0\EmployeeAPI.Web.sourcelink.json
+D:\API Project\EmployeeManagmentSystem API\EmployeeManagment\EmployeeManagmentAPI\bin\Debug\net8.0\AutoMapper.dll
