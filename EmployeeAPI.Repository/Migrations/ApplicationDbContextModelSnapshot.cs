@@ -24,9 +24,11 @@ namespace EmployeeAPI.Repository.Migrations
 
             modelBuilder.Entity("EmployeeAPI.Entity.EntityModels.Attedence", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
@@ -36,6 +38,9 @@ namespace EmployeeAPI.Repository.Migrations
 
                     b.Property<Guid>("EmployeeId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("EmployeeId1")
+                        .HasColumnType("int");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -55,16 +60,18 @@ namespace EmployeeAPI.Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EmployeeId");
+                    b.HasIndex("EmployeeId1");
 
                     b.ToTable("Attedences");
                 });
 
             modelBuilder.Entity("EmployeeAPI.Entity.EntityModels.Employee", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("City")
                         .IsRequired()
@@ -109,7 +116,7 @@ namespace EmployeeAPI.Repository.Migrations
                 {
                     b.HasOne("EmployeeAPI.Entity.EntityModels.Employee", "Employee")
                         .WithMany("Attendences")
-                        .HasForeignKey("EmployeeId")
+                        .HasForeignKey("EmployeeId1")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

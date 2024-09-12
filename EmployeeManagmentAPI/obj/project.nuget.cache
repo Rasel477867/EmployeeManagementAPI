@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bDDeBFDU5DOC9vhARAInZkdY6O0+BaKJC9oyJG29gJJFyk9Q6eW5hbN6dUT7LRCFDAmcLAftGykfoRIu3lpF2A==",
+  "dgSpecHash": "Kbo7wqWiowmqoEfc1x5kpSPxyYViO1k/h1DMMHKP69gr22ajS+XNSuiRB+NMy6uZvaCk3DVwdYNiTcYn0IpGiA==",
   "success": true,
   "projectFilePath": "D:\\API Project\\EmployeeManagmentSystem API\\EmployeeManagment\\EmployeeManagmentAPI\\EmployeeAPI.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

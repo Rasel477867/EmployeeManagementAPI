@@ -40,7 +40,7 @@ namespace EmployeeAPI.Repository.Core
             {
                 Entity.IsDeleted = true;
                 table.Update(Entity);
-                _db.SaveChanges();
+              
             });
             
 
@@ -61,7 +61,7 @@ namespace EmployeeAPI.Repository.Core
 
         public virtual async Task<T> GetById(int id)
         {
-            return await table.FindAsync(id);
+           return await table.FirstOrDefaultAsync(x=>!x.IsDeleted && x.Id == id);   
         }
 
         public virtual async Task Update(T Entity)
